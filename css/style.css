@@ -117,8 +117,8 @@ p{
 .service-item>p{
     font-family: 'Roboto', sans-serif;
 }
-/*SERVICES STYLES END*/
-/*----------------------------------------------------------*/
+
+
 /*PORTFOLIO STYLES START*/
 #portfolio-section{
     background-color: #f7f7f7;
@@ -186,8 +186,8 @@ p{
 .portfolio-image-mask:hover{
    opacity: 1;
 }
-/*PORTFOLIO STYLES END*/
-/*----------------------------------------------------------*/
+
+
 /*TEAM STYLES START*/
 #team-section{
     text-align: center;
@@ -217,7 +217,8 @@ p{
     background-color: rgb(14, 216, 214);
 }
 /*TEAM STYLES END*/
-/*----------------------------------------------------------*/
+
+
 /*CONTACT STYLES START*/
 #contact-section{
     background: url("../bootstrap-project-photos/footer/world-map.jpg") no-repeat center center;
