@@ -1,0 +1,294 @@
+/*GENERAL STYLES START*/
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+section{
+    padding: 30px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+p{
+    margin: 0;
+    color: #777777;
+}
+
+
+/*NAV BAR STYLES START*/
+#main-nav{
+    font-family: 'Montserrat', sans-serif;
+    margin:  0; 
+    border-radius: 0;
+    background-color: transparent;
+    z-index: 999;
+    border: 0;
+    padding: 5px;
+
+}
+#main-nav.scroll{
+    background-color: rgba(14, 216, 214,0.7);;
+}
+.navbar-default .navbar-brand{
+    font-family: 'Droid Serif', serif;
+}
+.navbar-default .navbar-brand{
+    font-size: 1.5em;
+}
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand{
+    color:white;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-brand:hover{
+    color:#0ed8d6;
+}
+.navbar-default , .navbar-default .navbar-nav>li>a:hover{
+    color: white;
+}
+
+
+
+
+/*WELCOME SECTION STYLES START*/
+#welcome-section{
+    height: 100vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55) 100%), url("../bootstrap-project-photos/header/pictures_on_the_wall.jpg") no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    
+}
+.welcome-section-position{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.welcome-section-position>h1{
+   font-weight: bold;
+    font-size: 3em;
+    text-transform: uppercase;
+    color:white;
+    margin: 30px;
+}
+.welcome-section-position>h2{
+    font-family: 'Droid Serif', serif;
+    font-size: 1.5em;
+    color:white;
+}
+.welcome-section-position>button{
+   background-color: #0ed8d6;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*SERVICES STYLES START*/
+#services-section{
+    text-align: center;
+}
+#services-section p{
+    font-family: 'Droid Serif', serif;
+    
+}
+.service-item{
+    margin-top: 30px;
+}
+.service-item>i{
+    background-color: #0ed8d6;
+    color:white;
+    border-radius: 500px;
+    padding:20px;
+    transition: all 0.3s ease;
+}
+.service-item>i:hover{
+    background-color: white;
+    border: 1px solid #0ed8d6;
+    color:#0ed8d6;
+    transform: rotate(360deg);
+}
+.service-item>p{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*PORTFOLIO STYLES START*/
+#portfolio-section{
+    background-color: #f7f7f7;
+}
+#portfolio-section p{
+    font-family: 'Droid Serif', serif;
+    text-align: center;
+    color:#333333;
+}
+.portfolio-item{
+    background-color: white;
+    margin-bottom: 10px;
+}
+#hidding-div{
+    overflow: hidden;
+}
+.portfolio-item-image{
+    width: 100%;
+   height:300px;
+    position: relative;
+}
+.portfolio-item-image:hover{
+    transform: scale(1.4);
+    transition: .2s all;
+}
+
+#portfolio-image-1{
+    background: url(../bootstrap-project-photos/portfolio/box_of_cookies.jpg) no-repeat center center;
+     background-size: cover;
+}
+#portfolio-image-2{
+    background: url(../bootstrap-project-photos/portfolio/chaotic_paint.jpg) no-repeat center center;
+     background-size: cover;
+}
+#portfolio-image-3{
+    background: url(../bootstrap-project-photos/portfolio/chestnut_on_bracket.jpg) no-repeat center center;
+     background-size: cover;
+}
+#portfolio-image-4{
+    background: url(../bootstrap-project-photos/portfolio/child_with_blue_paint.jpg) no-repeat center center;
+     background-size: cover;
+}
+#portfolio-image-5{
+    background: url(../bootstrap-project-photos/portfolio/house_with_blue_doors.jpg) no-repeat center center;
+     background-size: cover;
+}
+#portfolio-image-6{
+    background: url(../bootstrap-project-photos/portfolio/typing_on_laptop.jpg) no-repeat center center;
+     background-size: cover;
+}
+.portfolio-image-mask{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    opacity: 0;
+    background-color:rgba(14, 216, 214,0.55);
+    transition: .5s all ease;
+}
+.mask-icon{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.portfolio-image-mask:hover{
+   opacity: 1;
+}
+
+
+/*TEAM STYLES START*/
+#team-section{
+    text-align: center;
+}
+#team-section p{
+    font-family: 'Droid Serif', serif;
+    text-align: center;
+    color: #333333;
+}
+.team-item{
+    padding: 40px 0px;
+}
+.team-item>img {
+    margin: 0 auto;
+}
+.team-item i{
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    line-height: 20px;
+    color: white;
+    border-radius: 50%;
+    transition: 1s ease all;
+}
+.team-item i:hover{
+    background-color: rgb(14, 216, 214);
+}
+/*TEAM STYLES END*/
+
+
+/*CONTACT STYLES START*/
+#contact-section{
+    background: url("../bootstrap-project-photos/footer/world-map.jpg") no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    padding: 60px;
+}
+#contact-section h3,p{
+   color: white;
+}
+form{
+    font-family: 'Montserrat', sans-serif;
+}
+#contact-section input{
+   width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: 0;
+}
+#contact-section input:not(:last-child){
+   margin: 10px; 
+}
+#contact-section input:last-child{
+   margin: 10px 10px 0 10px; 
+}
+#contact-section textarea{
+   width: 100%;
+    margin: 10px;
+    height: 187px;
+    border-radius: 5px;
+    border: 0;
+    padding: 15px;
+}
+#contact-section button{
+    border-radius: 5px;
+    background-color: #0ed8d6;
+    border: 0;
+    color: white;
+}
+/*CONTACT STYLES END*/
+footer{
+    padding: 10px;
+}
+footer p{
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+footer i{
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    line-height: 5px;
+    color: white;
+    border-radius: 50%;
+    transition: 1s ease all;
+}
+footer a{
+    text-decoration: none;
+     color: #333333;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+footer .toMiddle{
+    text-align: center;
+}
+footer a,p{
+    line-height: 50px;
+}
+
+
+
